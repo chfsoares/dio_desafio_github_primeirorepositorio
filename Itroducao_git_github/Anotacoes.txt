@@ -1,0 +1,7 @@
+Aqui são seguir todas anotações referentes a introdução ao git - github
+
+comandos
+git status
+verifica status das pastas locais
+
+git add . (ou) git add *
