@@ -1,7 +1,23 @@
 Aqui são seguir todas anotações referentes a introdução ao git - github
 
-comandos
+Entendendo que o git é uma ferramenta de versionamento generica, porem amplemente utilizada por desenvolvedores.
+
+Github é o armazenamento remoto.
+
+Todas alterações feitas na máquina local deven ser adicionadas e comitadas antes de serem empurradas para o github.
+
+Commit é muito ele adiciona uma assinatura e uma mensagen àauqela verão dos arquivos. Essa mensagen que deve ser clara e evidenciar as alterações feitas.
+
+comandos:
+
 git status
-verifica status das pastas locais
+verifica status dos arquivos e pastas locais.
 
 git add . (ou) git add *
+adiciona as alterações feitas em arquivos e/ou pastas
+
+git commit -m "MENSSAGEM"
+adiociona o commit a versão
+
+git push origin maim "ou master depende do nome do branch"
+empurra as alterações commitadas para o github
